@@ -1,0 +1,101 @@
+*{
+    margin:0%;
+    padding: 0%;
+
+}
+body{
+    margin: 0;
+    font-family:"poppins", sans-serif;
+    background-color: lemonchiffon;  /* krem-pembe arası yumusak ton*/
+    color: black;
+}
+body{
+color:hotpink;
+}
+ul{
+    list-style-type: none;
+}
+button{
+    padding: 14px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 200;
+}
+img{
+width: 100%;
+}
+
+p{
+    line-height: 1.5; /* satır yüksekliği*/
+    text-align: justify;
+}
+/* Üst Menü Header */
+header{
+    background-color: #d8b4fe;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* dikey ortalama*/
+    background: linear-gradient(90deg,#d8b4fe,#fbcfe8,#fde68a);
+    padding: 75px 30px; /* dış boşluk*/
+    
+}
+.logo{
+font-size: 1.4rem;
+font-weight: bold;
+}
+header h1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+header p{
+    margin-bottom: 20px;
+}
+header button{
+    background-color:darkorchid;
+    color: black;
+}
+/* Menü bağlantıları*/
+/* nav */
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 250px;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #4a4a4a;
+    font-weight: 400;
+    padding: 20px;
+}
+
+/* İçerik Alanı*/
+main{
+    display: flex;
+    max-width: 1500px;
+    gap: 20px;
+    padding: 60px;
+    background-color: lemonchiffon; /*açık lila ton*/
+    border-top: 5px dashed #f9a8d4; /*pembe çizgi*/
+    margin: 0 auto;
+}
+main button{
+    background-color: rgb(138, 43, 185);
+    color: black;
+}
+main section{
+    flex: 2;
+}
+main div{
+    flex: 1;
+}
+.card img{
+border-radius: 30px;
+}
+.card-date{
+    margin: 15px 0;
+}
